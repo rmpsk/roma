@@ -1,0 +1,70 @@
+body {
+	margin: 0;
+}
+
+.main {
+    width: 1170px;
+    margin: 0 auto;
+    background: aqua;
+	position: relative;
+	/*height: 1460px;*/
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+#shapka {
+	width: 100%;
+}
+
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+	top: 690px;
+    left: 260px;
+	width: 100%;
+}
+
+h1 span {
+	color: green;
+	position: unset!important;
+}
+
+#img2 {
+    /* float: right; */
+    /*margin-left: 30px;*/
+    margin-bottom: 16px;
+    right: 0;
+    top: 760px;
+}
+
+p {
+    font-size: 28px;
+    margin: 0;
+    top: 750px;
+    width: 575px;
+}
+
+#img2, #img3, #img4 {
+width: 575px;
+}
+
+#img3 {
+    /*margin-right: 16px;*/
+    top: 1130px;
+}
+
+/*
+.main * {
+	position: absolute;
+}
+*/
+
+#img4 {
+	right:0;
+	top: 1130px;
+}
+
+.main img {
+	display: block;
+}

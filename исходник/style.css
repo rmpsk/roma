@@ -1,0 +1,66 @@
+.main {
+    width: 1170px;
+    height: 2000px;
+    margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start;
+	justify-content: space-between;
+}
+
+body {
+	margin: 0;
+}
+
+#shapka {
+	width: 100%;
+}
+
+img {
+	width: 565px;
+}
+
+h1 {
+	text-align: center;
+    text-transform: uppercase;
+	top: 700px;
+    left: 300px;
+	width: 100%;
+}
+
+
+h1 span {
+	color: green;
+	position: unset!important;
+}
+
+#img2 {
+	/*float: right;*/
+    margin-left: 30px;
+	margin-bottom: 30px;
+	right: 0;
+    top: 773px;
+}
+
+p {
+	font-size: 30px;
+	top: 740px;
+    width: 565px;
+}
+
+#img3 {
+	margin-right: 36px;
+	top: 1150px;
+}
+
+/*
+.main * {
+position: absolute;
+}
+*/
+
+#img4 {
+	top: 1150px;
+	right: 0;
+}
